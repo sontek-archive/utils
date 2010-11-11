@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import string
 
 def decode_shift_letter(current_ord, start, end, shift):
