@@ -1,7 +1,4 @@
 #!/usr/bin/python
-
-import string
-
 def decode_shift_letter(current_ord, start, end, shift):
     if current_ord - shift < start:
         new_ord = (current_ord + 26) - shift
